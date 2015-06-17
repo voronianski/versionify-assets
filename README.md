@@ -2,7 +2,7 @@
 
 [![npm version](http://badge.fury.io/js/versionify-assets.svg)](http://badge.fury.io/js/versionify-assets)
 [![Dependency Status](http://david-dm.org/voronianski/versionify-assets.svg)](http://david-dm.org/voronianski/versionify-assets)
-[![Download Count](http://img.shields.io/npm/dm/versionify-assets.svg?style=flat)](http://www.npmjs.com/package/versionify-assets)
+<!-- [![Download Count](http://img.shields.io/npm/dm/versionify-assets.svg?style=flat)](http://www.npmjs.com/package/versionify-assets) -->
 
 > Simply add checksum of `.js`/`.css` file to url querystring for cache busting.
 
@@ -17,8 +17,8 @@ npm install versionify-assets --save
 ```javascript
 var versionifyAssets = require('versionify-assets');
 
-// set public folder optionally, defaults to './public'
-// will look for fodler starting from project root
+// set assets folder optionally, defaults to './public'
+// will look for folder starting from project root
 versionifyAssets.setFolder('./static');
 
 // returns string with querystring
